@@ -1,5 +1,7 @@
 # City2049 Reference
 
+[![Deploy GitHub Pages](https://github.com/marsguo2049/city2049-reference/actions/workflows/pages.yml/badge.svg)](https://github.com/marsguo2049/city2049-reference/actions/workflows/pages.yml)
+
 City2049 的未来文化参考库。它从书、电影、剧集与游戏中收集关于未来城市、人工智能、气候、能源、治理与人的日常的想象，并把这些作品连接到可以继续建模和验证的 City2049 项目。
 
 [在线访问](https://marsguo2049.github.io/city2049-reference/)
