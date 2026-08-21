@@ -34,18 +34,17 @@ jobs:
         run: npm ci
 
       - name: Build static site
-        run: npm run build
+        run: npm run build:pages
         env:
-          GITHUB_ACTIONS: "true"
           GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Prepare artifact
-        run: touch dist/client/.nojekyll
+        run: touch dist/pages/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/client
+          path: dist/pages
 
   deploy:
     environment:
