@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 
+export const dynamic = "force-static";
+
 type Medium = "书" | "电影 / 剧集" | "游戏";
 type Work = { id: string; title: string; original?: string; creator: string; year: string; medium: Medium; topics: string[]; color: string; question: string; note: string; project?: string };
 
